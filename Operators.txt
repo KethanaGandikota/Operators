@@ -1,0 +1,211 @@
+OPERATORS:
+1.To write a program to get 2 numbers from the user and calculate their sum and difference using '+' and '-' operators respectively.And Print the corresponding sum and difference of the numbers as output.
+SAMPLE INPUT:
+  55
+  34
+SAMPLE OUTPUT:
+  89
+  21
+CODE:
+import math
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+2.To write a program to get 2 numbers from the user and calculate their product, quotient and remainder using '*', '/' and '%' operators respectively.And Print the corresponding product, quotient and remainder of the numbers as output.
+SAMPLE INPUT:
+  50
+  10
+SAMPLE OUTPUT:
+  500
+  5
+  0
+CODE:
+import math
+a=int(input())
+b=int(input())
+print(a*b)
+c=a/b
+print("%.f"%c)
+print(-(a%b))
+
+3.To write a program to get 2 numbers from the user and swap their values without any loss of data. You can make use of additional 3rdvariable for swapping.
+And Print the corresponding swapped values of the two numbers as output. 
+SAMPLE INPUT:
+  20
+  10
+SAMPLE OUTPUT:
+  10
+  20
+CODE:
+import math
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+4.To write a program to swap two values without the use of 3rd variable.And to print the output.
+SAMPLE INPUT:
+  10
+  20
+SAMPLE OUTPUT:
+  20
+  10
+CODE:
+import math
+a=int(input())
+b=int(input())
+print(b)
+print(a)
+
+5.To write a program to find the average.The average is the sum of all the numbers, then divided by the total numbers.
+SAMPLE INPUT:
+  10 
+  20
+  30
+  40
+  50
+SAMPLE OUTPUT:
+  30.00
+CODE:
+import math
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+
+f=(a+b+c+d+e)/5
+print("%.2f"%f)
+
+6.Write a program to calculate the area of different shapes.
+SAMPLE INPUT:
+  5
+  5
+  4
+  2.0
+SAMPLE OUTPUT:
+  25
+  20
+  12.56
+CODE:
+a=int(input())
+b=int(input())
+c=int(input())
+d=float(input())
+print(a*a)
+print(b*c)
+e=3.14*(d*d)
+print("%f"%e)
+
+7.To write a python program to find the power of a number.
+SAMPLE INPUT:
+  2
+  3
+SAMPLE OUTPUT:
+  8
+CODE:
+  import math
+  a=int(input())
+  b=int(input())
+  print(pow(a,b))
+
+8.To write a python program to find the sum of the digits in the given input.
+SAMPLE INPUT:
+  23
+SAMPLE OUTPUT:
+  5
+CODE:
+  import math
+  a=int(input())
+  b=a/10
+  c=a%10
+  print(int(b)+c)
+
+9.To write a python program to find the simple interest.
+SAMPLE INPUT:
+  15000
+  2
+  2.8
+SAMPLE OUTPUT:
+  840.00
+CODE:
+  a=int(input())
+  b=int(input())
+  c=float(input())
+  d=(a*b*c)/100
+  print("%.2f"%d)
+
+10.To write a  python program to find the midpoint of the line.
+SAMPLE INPUT:
+  2
+  4
+  10
+  15
+SAMPLE OUTPUT:
+  Binoy's house is located at (6.0,9.5)
+CODE:
+  a=int(input())
+  b=int(input())
+  c=int(input())
+  d=int(input())
+  e=(a+c)/2
+  f=(b+d)/2
+  print("Binoy\'s house is located at" "(",e,",",f,")")
+
+11.To write a python program to print the given output.
+SAMPLE INPUT:
+  50
+  20
+SAMPLE OUTPUT:
+  Required length is 140m
+  Required quantity of carpet is 1000sqm
+CODE:
+  a=int(input())
+  b=int(input())
+  c=(a+b)*2
+  d=a*b
+  print(f"Required length is {c}m")
+  print(f"Required quantity of carpet is {d}sqm")
+
+12.To write a python program to print the given output.
+SAMPLE INPUT:
+  1000
+  2
+  1
+SAMPLE OUTPUT:
+  The profit obtained is Rs.900
+CODE:
+  a=int(input())
+  b=int(input())
+  c=int(input())
+  d=a*(b-c)-100
+  print("The profit obtained is Rs.%d"%d)
+
+13.To write a python program to print the given output.
+SAMPLE INPUT:
+  60
+  8
+SAMPLE OUTPUT:
+  The number of students in each team is 7 and left out is 4
+CODE:
+  a=int(input())
+  b=int(input())
+  c=int(a/b)
+  d=a%b
+  print("The number of students in each team is",c,"and left out is",d)
+
+14.To write a python program to get a number from the user and find out whether it is odd or even.
+SAMPLE INPUT:
+  5
+SAMPLE OUTPUT:
+  Odd
+CODE:
+  import math
+  a=int(input())
+  print("Even" if (a%2==0) else "Odd")
+
